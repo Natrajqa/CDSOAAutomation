@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" configfailurepolicy="continue">
+    <test name="OA Service">
+        <classes>
+            <class name="com.roche.rapid.test.APIAutomation.CustomTests.Analytics.cdsoa.ValidateOaDbConnection"/>
+            <class name="com.roche.rapid.test.APIAutomation.CustomTests.Analytics.cdsoa.ValidateOrganizationUUIDAndCount"/>
+        </classes>
+    </test>
+</suite>
